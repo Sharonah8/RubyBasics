@@ -56,3 +56,12 @@ def sum(num1, num2)
 end
 
 sum(18, 30)
+
+def looper(limit)
+    limit.times dp [i]
+        puts i
+    end
+end
+
+looper(3)
+looper(5)
