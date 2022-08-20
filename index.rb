@@ -42,3 +42,17 @@ elsif age < 18
 elsif age > 18
     puts "Old enough"
 end
+
+unless names.length != 4
+    names.push("Simon")
+else 
+    puts "hello"
+end
+
+
+# Data Structures
+def sum(num1, num2)
+    num1 - num2
+end
+
+sum(18, 30)
